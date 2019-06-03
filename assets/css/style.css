@@ -1,13 +1,16 @@
-/* body {
+body {
     height: 100vh;
-} */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 /* numberを表示するwindowのデザイン */
 #bingo {
-    margin: 0 auto;
+    margin-top: 20px;
     height: 250px;
     width: 250px;
-    border: 5px solid #ADFF2F;
+    border: 10px solid #ADFF2F;
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -22,7 +25,7 @@ span {
 /* ボタンのデザイン */
 .button {
     text-align: center;
-    margin: 30px 0;
+    margin-top: 20px;
 }
 
 #start {
@@ -45,8 +48,8 @@ span {
 
 /* すでに出た数字を表示するテーブルのデザイン */
 .number-table {
-    width: 60%;
-    margin: 0 auto;
+    margin-top: 10px;
+    width: 50%;
     display: grid;
     grid-template-columns: repeat(10, 10%);
     grid-template-rows: repeat(8, 15%);
